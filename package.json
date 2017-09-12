@@ -2,7 +2,7 @@
     "name": "base16-leaf-tomorrow-vscode",
     "displayName": "Base16 Leaf Tomorrow",
     "description": "A less red and more green version of Base16 Tomorrow Dark+ Theme by Shurelia with some minor modifications in UI colors.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "swjh",
     "author": {
         "name": "Simon Hermann",
@@ -16,8 +16,7 @@
         "tomorrow",
         "theme",
         "dark",
-        "green",
-        "markdown"
+        "green"
     ],
     "icon": "icon.png",
     "galleryBanner": {
@@ -28,9 +27,9 @@
         "Themes"
     ],
     "repository": {
-		"type": "git",
-		"url": "https://github.com/simonhermann/base16-leaf-tomorrow-vscode-theme"
-	},
+        "type": "git",
+        "url": "https://github.com/simonhermann/base16-leaf-tomorrow-vscode-theme"
+    },
     "contributes": {
         "themes": [
             {
