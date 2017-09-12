@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "publisher": "swjh",
     "author": {
-        "name": "swjh",
+        "name": "Simon Hermann",
         "email": "mail@simonhermann.de"
     },
     "engines": {
@@ -29,14 +29,14 @@
     ],
     "repository": {
 		"type": "git",
-		"url": "https://github.com/Shurelia/base16-tomorrow-dark-vscode.git"
+		"url": "https://github.com/simonhermann/base16-leaf-tomorrow-vscode-theme"
 	},
     "contributes": {
         "themes": [
             {
                 "label": "Base16 Leaf Tomorrow",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Base16 Leaf Tomorrow-color-theme.json"
+                "path": "./themes/Base16_Leaf_Tomorrow-color-theme.json"
             }
         ]
     }
