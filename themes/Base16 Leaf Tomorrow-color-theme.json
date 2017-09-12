@@ -7,7 +7,7 @@
 		"editor.lineHighlightBackground": "#282a2e",
 		"editorCursor.foreground": "#c5c8c6",
 		"editorWhitespace.foreground": "#626466",
-		"sideBar.background": "#161719",
+		"sideBar.background": "#191B1D",
 		"sideBar.foreground": "#a3a8ae",
 		"list.activeSelectionBackground": "#222426",
 		"list.inactiveSelectionBackground": "#222426",
@@ -18,6 +18,7 @@
 		"list.hoverBackground": "#1c1e20",
 		"statusBar.foreground": "#c5c8c6",
 		"activityBar.background": "#161719",
+		"activityBarBadge.background": "#275511",
 		"statusBar.background": "#161719",
 		"editorGroup.background": "#161719",
 		"editorGroupHeader.tabsBackground": "#161719",
@@ -25,7 +26,7 @@
 		"tab.inactiveBackground": "#161719",
 		"editorGutter.modifiedBackground": "#de935f",
 		"editorGutter.addedBackground": "#b5bd68",
-		"editorGutter.deletedBackground": "#cc6666",
+		"editorGutter.deletedBackground": "#8CB978",
 		"editorIndentGuide.background": "#282a2e",
 		"editorError.foreground": "#d13b2e",
 		"editorWarning.foreground": "#ad7c0b",
@@ -34,7 +35,8 @@
 		"gitDecoration.untrackedResourceForeground": "#73c990",
 		"gitDecoration.ignoredResourceForeground": "#696d71",
 		"gitDecoration.conflictingResourceForeground": "#6494ed",
-		"gitDecoration.deletedResourceForeground": "#ff6347"
+		"gitDecoration.deletedResourceForeground": "#ff6347",
+		"editorBracketMatch.border": "#555555"
 	},
 	"tokenColors": [
 		{
@@ -113,7 +115,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#cc6666"
+				"foreground": "#8CB978"
 			}
 		},
 		{
@@ -245,7 +247,7 @@
 			"name": "Tags",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#cc6666"
+				"foreground": "#8CB978"
 			}
 		},
 		{
@@ -357,7 +359,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#81a2be"
+				"foreground": "#8CB978"
 			}
 		},
 		{
@@ -371,7 +373,7 @@
 			"name": "Lists",
 			"scope": "beginning.punctuation.definition.list",
 			"settings": {
-				"foreground": "#cc6666"
+				"foreground": "#8CB978"
 			}
 		},
 		{
@@ -400,7 +402,7 @@
 			"name": "Deleted",
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#cc6666"
+				"foreground": "#8CB978"
 			}
 		},
 		{
@@ -445,7 +447,7 @@
 			"name": "Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"background": "#cc6666",
+				"background": "#8CB978",
 				"foreground": "#ffffff"
 			}
 		},

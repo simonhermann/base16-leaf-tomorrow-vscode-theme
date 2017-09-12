@@ -1,10 +1,21 @@
-# Base16 Tomorrow Dark
-A VSCode theme styled to look like Atom's [base16-tomorrow-dark-theme](https://github.com/atom/base16-tomorrow-dark-theme), with some minor modifications and italics thrown in for flair. Workbench colors taken from Atom's One Dark UI theme.
+# Base16 Leaf Tomorrow Dark Theme for VSCode
+Since Tomorrow felt too red to me, I replaced it by a nice green.
 
+This theme works great with markdown, since it displays **bold in bold** and *italic in italic*.
+
+Based on *Base16 Tomorrow Dark+* Theme by Shurelia
+
+WRONG SCREENSHOT:
 ![screenshot](./screenshot.png)
 
-## Todo
-- ~~Theme workbench~~
-- ~~Make markdown prettier~~
+To Do:
+- add correct git link
+- correct git name
+- merge branches
+- make screenshot with comparison
+- update changelog and version no
+- publish to marketplace
 
-If there's anything else that doesn't look quite right, please open an issue on GitHub!
+Notes:
+green1: #8CB978
+green2: #275511

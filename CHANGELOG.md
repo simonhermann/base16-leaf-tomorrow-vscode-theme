@@ -1,7 +1,8 @@
 # Change Log
-All notable changes to the "base16-tomorrow-night-dark-vscode" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.0.2
+- Tweak some workbench colors to make the sideBar distinguishable from statusBar and activityBar
+- Make color of bracketMatch highlight less prominent
 
-## [Unreleased]
+## 0.0.1
 - Initial release

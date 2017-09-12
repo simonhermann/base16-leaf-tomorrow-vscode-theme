@@ -1,7 +1,7 @@
 {
     "name": "base16-leaf-tomorrow-vscode",
     "displayName": "Base16 Leaf Tomorrow",
-    "description": "A greener version of Base16 Tomorrow Dark+ by Shurelia",
+    "description": "A less red and more green version of Base16 Tomorrow Dark+ Theme by Shurelia with some minor modifications in UI colors.",
     "version": "0.0.1",
     "publisher": "swjh",
     "author": {
@@ -16,7 +16,8 @@
         "tomorrow",
         "theme",
         "dark",
-        "green"
+        "green",
+        "markdown"
     ],
     "icon": "icon.png",
     "galleryBanner": {
