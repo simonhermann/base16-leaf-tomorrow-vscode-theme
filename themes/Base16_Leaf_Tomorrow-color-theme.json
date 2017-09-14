@@ -297,12 +297,21 @@
 		{
 			"name": "Headings",
 			"scope": [
-				"markup.heading punctuation.definition.heading",
 				"entity.name.section"
 			],
 			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#81a2be"
+			}
+		},
+		{
+			"name": "Headings punctuation",
+			"scope": [
+				"markup.heading punctuation.definition.heading"
+			],
+			"settings": {
 				"fontStyle": "",
-				"foreground": "#cc6666"
+				"foreground": "#555555"
 			}
 		},
 		{
@@ -321,10 +330,22 @@
 		},
 		{
 			"name": "Markup Bold",
-			"scope": "markup.bold",
+			"scope": [
+				"markup.bold"
+			],
 			"settings": {
 				"foreground": "#de935f",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Bold punctuation",
+			"scope": [
+				"punctuation.definition.bold"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#555555"
 			}
 		},
 		{
@@ -336,10 +357,22 @@
 		},
 		{
 			"name": "Markup Italic",
-			"scope": "markup.italic",
+			"scope": [
+				"markup.italic"
+			],
 			"settings": {
 				"foreground": "#b294bb",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Italic punctuation",
+			"scope": [
+				"punctuation.definition.italic"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#555555"
 			}
 		},
 		{
