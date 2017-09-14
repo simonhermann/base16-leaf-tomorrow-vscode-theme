@@ -1,42 +1,47 @@
 {
-    "name": "base16-leaf-tomorrow-vscode",
-    "displayName": "Base16 Leaf Tomorrow",
-    "description": "A less red and more green version of Base16 Tomorrow Dark+ Theme by Shurelia with some minor modifications in UI colors.",
-    "version": "0.0.2",
-    "publisher": "swjh",
-    "author": {
-        "name": "Simon Hermann",
-        "email": "mail@simonhermann.de"
-    },
-    "engines": {
-        "vscode": "^1.16.0"
-    },
-    "keywords": [
-        "base16",
-        "tomorrow",
-        "theme",
-        "dark",
-        "green"
-    ],
-    "icon": "icon.png",
-    "galleryBanner": {
-        "color": "#1d1f21",
-        "theme": "dark"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/simonhermann/base16-leaf-tomorrow-vscode-theme"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Base16 Leaf Tomorrow",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Base16_Leaf_Tomorrow-color-theme.json"
-            }
-        ]
-    }
+	"name": "base16-leaf-tomorrow-vscode",
+	"displayName": "Base16 Leaf Tomorrow",
+	"description": "A less red and more green version of Base16 Tomorrow Dark+ Theme by Shurelia with some minor modifications in UI colors.",
+	"version": "0.0.3",
+	"publisher": "swjh",
+	"author": {
+		"name": "Simon Hermann",
+		"email": "mail@simonhermann.de"
+	},
+	"engines": {
+		"vscode": "^1.16.0"
+	},
+	"keywords": [
+		"base16",
+		"markdown",
+		"theme",
+		"dark",
+		"green"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#1d1f21",
+		"theme": "dark"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/simonhermann/base16-leaf-tomorrow-vscode-theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Base16 Leaf Tomorrow",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Base16_Leaf_Tomorrow-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "679d917d-7c1c-407e-8cfb-345ea3dc4004",
+		"publisherId": "3109a33e-1153-43c8-8863-b3a279bcc648",
+		"publisherDisplayName": "swjh"
+	}
 }
