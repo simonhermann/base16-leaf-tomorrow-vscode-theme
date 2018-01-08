@@ -1,5 +1,6 @@
 # Base16 **Leaf Tomorrow** Dark Theme for VSCode
-Since Tomorrow felt too red to me, I replaced that color with a nice green.
+A less red and more green version of Base16 Tomorrow Dark+ Theme by Shurelia with some minor modifications in UI colors.
+Since Tomorrow just felt too red to me, I replaced that color with a nice green.
 
 ![screenshot](./screenshot.gif)
 
@@ -10,13 +11,13 @@ Recommended fonts are Fira Code or Source Code Pro.
 Matching file icon themes are "Seti", "Monokai Pro Icons" or "File icons".  
 
 
+## Notes
+
 ### Colors
-green1: #8CB978  
-green2: #275511 (only used for activityBar badges)  
-medium grey: #555555  
+main green: #8CB978  
+activityBar badges: #275511 
+medium grey for mathingBracket highlight: #555555  
 sidebar bg: #191B1D  
-B9B9B9
+markdown punctuation: #B9B9B9
 
 
-### To Do
-- improve markdown 
