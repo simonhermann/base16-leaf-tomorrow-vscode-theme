@@ -1,42 +1,42 @@
 {
   "type": "dark",
   "colors": {
-    "editor.background": "#1d1f21",
-    "editor.foreground": "#c5c8c6",
-    "editor.selectionBackground": "#373b41",
-    "editor.lineHighlightBackground": "#282a2e",
-    "editorCursor.foreground": "#c5c8c6",
-    "editorWhitespace.foreground": "#2f2f2f",
-    "sideBar.background": "#191B1D",
-    "sideBar.foreground": "#a3a8ae",
-    "list.activeSelectionBackground": "#222426",
-    "list.inactiveSelectionBackground": "#222426",
-    "list.focusBackground": "#222426",
-    "list.focusForeground": "#d9dbde",
-    "list.activeSelectionForeground": "#d9dbde",
-    "list.inactiveSelectionForeground": "#d9dbde",
-    "list.hoverBackground": "#1c1e20",
-    "statusBar.foreground": "#c5c8c6",
     "activityBar.background": "#161719",
     "activityBarBadge.background": "#275511",
-    "statusBar.background": "#161719",
+    "editor.background": "#1d1f21",
+    "editor.foreground": "#c5c8c6",
+    "editor.lineHighlightBackground": "#282a2e",
+    "editor.selectionBackground": "#373b41",
+    "editorBracketMatch.border": "#555555",
+    "editorCursor.foreground": "#c5c8c6",
+    "editorError.foreground": "#d13b2e",
     "editorGroup.background": "#161719",
     "editorGroupHeader.tabsBackground": "#161719",
-    "tab.activeBackground": "#1d1f21",
-    "tab.inactiveBackground": "#161719",
-    "editorGutter.modifiedBackground": "#de935f",
     "editorGutter.addedBackground": "#b5bd68",
     "editorGutter.deletedBackground": "#8CB978",
+    "editorGutter.modifiedBackground": "#de935f",
     "editorIndentGuide.background": "#444444",
-    "editorError.foreground": "#d13b2e",
-    "editorWarning.foreground": "#ad7c0b",
     "editorLink.activeForeground": "#81a2be",
-    "gitDecoration.modifiedResourceForeground": "#e2c08d",
-    "gitDecoration.untrackedResourceForeground": "#73c990",
-    "gitDecoration.ignoredResourceForeground": "#696d71",
+    "editorWarning.foreground": "#ad7c0b",
+    "editorWhitespace.foreground": "#2f2f2f",
     "gitDecoration.conflictingResourceForeground": "#6494ed",
     "gitDecoration.deletedResourceForeground": "#ff6347",
-    "editorBracketMatch.border": "#555555"
+    "gitDecoration.ignoredResourceForeground": "#696d71",
+    "gitDecoration.modifiedResourceForeground": "#e4caa5",
+    "gitDecoration.untrackedResourceForeground": "#73c990",
+    "list.activeSelectionBackground": "#222426",
+    "list.activeSelectionForeground": "#d9dbde",
+    "list.focusBackground": "#222426",
+    "list.focusForeground": "#d9dbde",
+    "list.hoverBackground": "#1c1e20",
+    "list.inactiveSelectionBackground": "#222426",
+    "list.inactiveSelectionForeground": "#d9dbde",
+    "sideBar.background": "#191B1D",
+    "sideBar.foreground": "#a3a8ae",
+    "statusBar.background": "#161719",
+    "statusBar.foreground": "#c5c8c6",
+    "tab.activeBackground": "#1d1f21",
+    "tab.inactiveBackground": "#161719"
   },
   "tokenColors": [
     {
@@ -300,8 +300,8 @@
         "entity.name.section"
       ],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#81a2be"
+        "fontStyle": "bold underline",
+        "foreground": "#7faa6d"
       }
     },
     {
@@ -334,7 +334,6 @@
         "markup.bold"
       ],
       "settings": {
-        "foreground": "#de935f",
         "fontStyle": "bold"
       }
     },
@@ -361,7 +360,6 @@
         "markup.italic"
       ],
       "settings": {
-        "foreground": "#b294bb",
         "fontStyle": "italic"
       }
     },
@@ -382,22 +380,27 @@
         "markup.fenced_code.block"
       ],
       "settings": {
-        "foreground": "#b5bd68"
+        "foreground": "#969896",
+        "background": "#35383b"
       }
     },
     {
       "name": "Link",
       "scope": [
         "meta.link",
-        "string.other.link"
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown"
       ],
       "settings": {
-        "foreground": "#8CB978"
+        "foreground": "#969896"
       }
     },
     {
       "name": "Link",
-      "scope": "string.other.link.title",
+      "scope": [
+        "string.other.link",
+        "string.other.link.title"
+      ],
       "settings": {
         "foreground": "#8abeb7"
       }
@@ -413,15 +416,15 @@
       "name": "Quotes",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#969896"
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Separator",
       "scope": "meta.separator",
       "settings": {
-        "background": "#373b41",
-        "foreground": "#c5c8c6"
+        "foreground": "#c5c8c6",
+        "background": "#373b41"
       }
     },
     {

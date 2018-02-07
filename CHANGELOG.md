@@ -1,5 +1,13 @@
 # Change Log
 
+## 0.0.6
+- update screenshot
+
+## 0.0.5
+- umproved markdown! Now less distracting: 
+    - using less colors, now matching *Leafy* mood 
+    - less gaudy color for links, tags and other non-important parts
+
 ## 0.0.4
 - make indent guides more visible
 - make white space color less prominent
