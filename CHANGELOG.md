@@ -1,7 +1,7 @@
 # Change Log
 
-## 0.0.6
-- update screenshot
+## 0.0.6 - 0.0.8
+- trying to get Visual Studio marketplace to update the screenshot..
 
 ## 0.0.5
 - umproved markdown! Now less distracting: 
