@@ -15,7 +15,8 @@
     "editorGutter.addedBackground": "#b5bd68",
     "editorGutter.deletedBackground": "#8CB978",
     "editorGutter.modifiedBackground": "#de935f",
-    "editorIndentGuide.background": "#444444",
+    "editorIndentGuide.background": "#2f2f2f",
+    "editorIndentGuide.activeBackground": "#444444",
     "editorLink.activeForeground": "#81a2be",
     "editorWarning.foreground": "#ad7c0b",
     "editorWhitespace.foreground": "#2f2f2f",
@@ -33,6 +34,7 @@
     "list.inactiveSelectionForeground": "#d9dbde",
     "sideBar.background": "#191B1D",
     "sideBar.foreground": "#a3a8ae",
+    "sideBarSectionHeader.background": "#161719",
     "statusBar.background": "#161719",
     "statusBar.foreground": "#c5c8c6",
     "tab.activeBackground": "#1d1f21",
@@ -205,6 +207,16 @@
       ],
       "settings": {
         "foreground": "#b5bd68"
+      }
+    },
+    {
+      "name": "Markdown Link Brackets",
+      "scope": [
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown"
+      ],
+      "settings": {
+        "foreground": "#8abeb7"
       }
     },
     {
@@ -390,6 +402,16 @@
         "meta.link",
         "markup.underline.link.markdown",
         "markup.underline.link.image.markdown"
+      ],
+      "settings": {
+        "foreground": "#969896"
+      }
+    },
+    {
+      "name": "Markdown Link Punctuation",
+      "scope": [
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown"
       ],
       "settings": {
         "foreground": "#969896"
