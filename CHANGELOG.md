@@ -1,6 +1,18 @@
 # Change Log
 
-# 1.0.0
+## 1.1.0
+
+* Slightly adjusted main color value
+* Better UI colors and add contrast border. To disable border, add this to your settings.json: 
+  ```json
+  "workbench.colorCustomizations": {
+    "contrastBorder": "#ffffff00",
+  },
+  ```
+* Add suggestions how to set colors for indent-rainbow and Bracket Pair Colorizer Plugins
+* Fix: sometimes selection in UI input boxes was invisible
+
+## 1.0.0
 
 * adjustments to support the new `editorIndentGuide.activeBackground`
 * darker `sideBarSectionHeader.background`, matching activitybar now

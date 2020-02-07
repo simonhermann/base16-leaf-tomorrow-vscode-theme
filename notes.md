@@ -6,9 +6,8 @@
 
 ## Colors
 
-* main green: #8CB978
+* main green: #81ac6f
 * secondary green (activityBar badges): #275511
-* slightly darker green (markdown headings): #7faa6d
 
 ## How to realease new version
 

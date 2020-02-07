@@ -3,28 +3,25 @@
   "colors": {
     "activityBar.background": "#161719",
     "activityBarBadge.background": "#275511",
+    "contrastBorder": "#050707",
+    "descriptionForeground": "#d9dbde",
+    "dropdown.background": "#282a2e",
+    "dropdown.border": "#373b41",
+    "dropdown.foreground": "#d9dbde",
+    "dropdown.listBackground": "#282a2e",
     "editor.background": "#1d1f21",
     "editor.foreground": "#c5c8c6",
     "editor.lineHighlightBackground": "#282a2e",
     "editor.selectionBackground": "#373b41",
     "editorBracketMatch.border": "#555555",
     "editorCursor.foreground": "#c5c8c6",
-    "editorError.foreground": "#d13b2e",
-    "editorGroup.background": "#161719",
-    "editorGroupHeader.tabsBackground": "#161719",
-    "editorGutter.addedBackground": "#b5bd68",
-    "editorGutter.deletedBackground": "#8CB978",
-    "editorGutter.modifiedBackground": "#de935f",
-    "editorIndentGuide.background": "#2f2f2f",
     "editorIndentGuide.activeBackground": "#444444",
-    "editorLink.activeForeground": "#81a2be",
-    "editorWarning.foreground": "#ad7c0b",
+    "editorIndentGuide.background": "#2f2f2f",
+    "editorOverviewRuler.border": "#1c1e20",
+    "editorSuggestWidget.selectedBackground": "#1d1f21",
     "editorWhitespace.foreground": "#2f2f2f",
-    "gitDecoration.conflictingResourceForeground": "#6494ed",
-    "gitDecoration.deletedResourceForeground": "#ff6347",
-    "gitDecoration.ignoredResourceForeground": "#696d71",
-    "gitDecoration.modifiedResourceForeground": "#e4caa5",
-    "gitDecoration.untrackedResourceForeground": "#73c990",
+    "focusBorder": "#373b41",
+    "foreground": "#d9dbde",
     "list.activeSelectionBackground": "#222426",
     "list.activeSelectionForeground": "#d9dbde",
     "list.focusBackground": "#222426",
@@ -32,19 +29,26 @@
     "list.hoverBackground": "#1c1e20",
     "list.inactiveSelectionBackground": "#222426",
     "list.inactiveSelectionForeground": "#d9dbde",
+    "menu.background": "#282a2e",
+    "selection.background": "#373b41",
     "sideBar.background": "#191B1D",
     "sideBar.foreground": "#a3a8ae",
     "sideBarSectionHeader.background": "#161719",
     "statusBar.background": "#161719",
     "statusBar.foreground": "#c5c8c6",
+    "statusBar.noFolderBackground": "#161719",
     "tab.activeBackground": "#1d1f21",
-    "tab.inactiveBackground": "#161719"
+    "tab.activeForeground": "#d9dbde",
+    "tab.inactiveBackground": "#161719",
+    "titleBar.activeBackground": "#161719",
+    "titleBar.border": "#030404",
+    "titleBar.inactiveBackground": "#161719",
+    "widget.shadow": "#16161638",
   },
   "tokenColors": [
     {
       "settings": {
         "foreground": "#c5c8c6ff",
-        "background": "#1d1f21ff"
       }
     },
     {
@@ -117,7 +121,7 @@
         "support.type.property-name"
       ],
       "settings": {
-        "foreground": "#8CB978"
+        "foreground": "#81ac6f"
       }
     },
     {
@@ -259,7 +263,7 @@
       "name": "Tags",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#8CB978"
+        "foreground": "#81ac6f"
       }
     },
     {
@@ -313,7 +317,7 @@
       ],
       "settings": {
         "fontStyle": "bold underline",
-        "foreground": "#7faa6d"
+        "foreground": "#81ac6f"
       }
     },
     {
@@ -393,7 +397,6 @@
       ],
       "settings": {
         "foreground": "#969896",
-        "background": "#35383b"
       }
     },
     {
@@ -431,7 +434,7 @@
       "name": "Lists",
       "scope": "beginning.punctuation.definition.list",
       "settings": {
-        "foreground": "#8CB978"
+        "foreground": "#81ac6f"
       }
     },
     {
@@ -446,7 +449,6 @@
       "scope": "meta.separator",
       "settings": {
         "foreground": "#c5c8c6",
-        "background": "#373b41"
       }
     },
     {
@@ -460,7 +462,7 @@
       "name": "Deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#8CB978"
+        "foreground": "#81ac6f"
       }
     },
     {
@@ -505,7 +507,6 @@
       "name": "Illegal",
       "scope": "invalid.illegal",
       "settings": {
-        "background": "#8CB978",
         "foreground": "#ffffff"
       }
     },
@@ -513,7 +514,6 @@
       "name": "Broken",
       "scope": "invalid.broken",
       "settings": {
-        "background": "#de935f",
         "foreground": "#1d1f21"
       }
     },
@@ -521,7 +521,6 @@
       "name": "Deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#a3685a",
         "foreground": "#ffffff"
       }
     },
@@ -529,7 +528,6 @@
       "name": "Unimplemented",
       "scope": "invalid.unimplemented",
       "settings": {
-        "background": "#969896",
         "foreground": "#ffffff"
       }
     },
