@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="base16-leaf-tomorrow-vscode" Version="1.1.0" Publisher="swjh"/>
+    <Identity Language="en-US" Id="base16-leaf-tomorrow-vscode" Version="1.1.1" Publisher="swjh"/>
     <DisplayName>Base16 Leaf Tomorrow</DisplayName>
     <Description xml:space="preserve">A less red and more green version of Base16 Tomorrow Dark+ Theme by Shurelia with some minor modifications in UI colors.</Description>
     <Tags>base16,markdown,theme,dark,green,color-theme</Tags>

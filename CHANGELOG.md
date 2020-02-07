@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.1
+
+* tweak activityBar icon colors
+
 ## 1.1.0
 
 * Slightly adjusted main color value

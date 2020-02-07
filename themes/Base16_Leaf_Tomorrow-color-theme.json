@@ -1,8 +1,12 @@
 {
   "type": "dark",
   "colors": {
+    "activityBar.activeBorder": "#255011",
     "activityBar.background": "#161719",
-    "activityBarBadge.background": "#275511",
+    "activityBar.foreground": "#c5c8c6",
+    "activityBar.inactiveForeground": "#555555",
+    "activityBarBadge.background": "#255011",
+    "activityBarBadge.foreground": "#c5c8c6",
     "contrastBorder": "#050707",
     "descriptionForeground": "#d9dbde",
     "dropdown.background": "#282a2e",
